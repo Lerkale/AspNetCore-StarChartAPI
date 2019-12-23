@@ -17,5 +17,12 @@ namespace StarChart.Controllers
         {
             _context = context;
         }
+
+        [HttpGet]
+        public Task<ActionResult> Get()
+        {
+            return null;
+        }
+
     }
 }
